@@ -16,11 +16,11 @@ print('3. French')
 # I put the print commands on separate lines for formatting purposes. Not sure if there's an easier way to do that.
 myLanguage = input()
 # I assigned whatever the user types in to myLanguage with the 3 different outcomes
-if myLanguage == 'Spanish':
+if myLanguage == str('Spanish'):
         print('Hola! Como estas?')
-if myLanguage == 'Italian':
+if myLanguage == str('Italian'):
         print('Ciao, come stai')
-if myLanguage == 'French':
+if myLanguage == str('French'):
         print('Salut comment allez-vous')
-        
+
 
